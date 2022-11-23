@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #1e293b;
+  --dark-color: #333333;
+  --light-color: #27272a;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: justify;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.bg-primary{
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.search{
+  display: flex;
+  flex: 1;
+  padding:6px;
+  margin-left: 25%;
+
+}
+.search input{
+  border-radius: 30px;
+  height: 30px;
+  width: 300px;
+  padding: 10px;
+  background-color:whitesmoke;
+}
+.ss{
+  display: flex;
+  flex: 4.5;
+}
+.navbar i{
+color: whitesmoke;
+}
+
+
+.output{
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  margin: 30px ;
+  padding: 20px;
+}
+
+img{
+  border: 1px solid;
+  padding: 5px;
+  margin: 10px;
+}

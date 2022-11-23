@@ -11,7 +11,7 @@ function App() {
     console.log(prompt);
 
     let res = await fetch(
-      "http://ec2-13-234-120-211.ap-south-1.compute.amazonaws.com:5000/generate",
+      "https://cors-everywhere.herokuapp.com/http://ec2-13-234-120-211.ap-south-1.compute.amazonaws.com:5000/generate",
       {
         headers: {
           Accept: "application/json",

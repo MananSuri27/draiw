@@ -41,7 +41,7 @@ function App() {
             placeholder="Search"
             onChange={(e) => setPrompt(e.target.value)}
           />
-          <button class="search-button" type="submit">
+          <button class="search-button">
             <i class="fa-sharp fa-solid fa-magnifying-glass" />
             Search
           </button>

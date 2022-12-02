@@ -11,11 +11,12 @@ function App() {
     console.log(prompt);
 
     let res = await fetch(
-      "https://fast-dawn-89938.herokuapp.com/http://ec2-13-234-120-211.ap-south-1.compute.amazonaws.com:5000/generate",
+      "http://cors-anywhere.herokuapp.com/http://ec2-13-234-120-211.ap-south-1.compute.amazonaws.com:5000/hello",
       {
         headers: {
           Accept: "application/json",
           "Content-Type": "application/json",
+          "X-Requested-With":"https://frontend-deploy.d37zn1zhdu7noq.amplifyapp.com/"
         },
         method: "POST",
         body: JSON.stringify({
